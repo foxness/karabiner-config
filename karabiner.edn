@@ -5,6 +5,9 @@
 ;;
 ;; ============================
 
+;; LOCATION: ~/.config/karabiner.edn
+;; COMMAND TO ACTIVATE: goku
+
 ;; ============== LINKS ==============
 
 ;; goku: https://github.com/yqrashawn/GokuRakuJoudo
@@ -71,6 +74,9 @@
 
         {:des "Caps Lock + Escape —> Placeholder + F18 (open recents folder)"
          :rules [[:!QWERescape :!QEf18]]}
+
+        {:des "Hyper Key + Z —> Cmd + H (hide)"
+         :rules [[:!QWERz :!Ch]]} ;; replace with [:!Pz :!Ch] if caps lock isn't hyper
 
 ;; ============== HYPER FUNCTION ROW ==============
 
@@ -146,9 +152,6 @@
 
         ;; {:des "Caps Lock + G —> FN Key + E (emoji)"
         ;;  :rules [[:!QWERg :!Fe]]}
-
-        ;; {:des "Hyper Key + Z —> Cmd + H (hide)"
-        ;;  :rules [[:!QWERz :!Ch]]} ;; replace with [:!Pz :!Ch] if caps lock isn't hyper
 
         ;; {:des "Caps Lock —> Hyper Key (Escape when pressed alone)" ;; order matters: 1
         ;;  :rules [[:##caps_lock :!QWEright_shift nil {:alone :escape}]]}
