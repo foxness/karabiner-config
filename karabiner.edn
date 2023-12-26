@@ -132,9 +132,6 @@
         {:des "Equals + Delete —> Forward Delete"
          :rules [[[:equal_sign :delete_or_backspace] :delete_forward]]}
 
-        {:des "Opt + Space —> Cmd + H (hide)"
-         :rules [[:!Ospacebar :!Ch]]} ;; replace with [:!Pz :!Ch] if caps lock isn't hyper
-
 ;; ============== HISTORY ==============
 
         ;; {:des "F5 —> Dictation"
@@ -158,6 +155,9 @@
 
         ;; {:des "Right Option -> FN Key (Caps Lock when pressed alone)"
         ;;  :rules [[:##right_option :fn nil {:alone :caps_lock}]]}
+
+        ;; {:des "Opt + Space —> Cmd + H (hide)"
+        ;;  :rules [[:!Ospacebar :!Ch]]} ;; replace with [:!Pz :!Ch] if caps lock isn't hyper
 
 ;;
         ]}
